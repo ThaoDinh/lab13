@@ -1,0 +1,31 @@
+#myCarousel {
+  margin-bottom: 10rem;
+}
+.bg-img1,
+.bg-img2,
+.bg-img3 {
+  height: 30rem;
+}
+@media screen and (min-width: 1024px) {
+  .bg-img1 .bg-img2 .bg-img3 {
+    height: 40rem;
+  }
+}
+
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(images/senda-banner.jpg);
+}
+
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(images/senda-banner.jpg);
+}
+
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(images/senda-banner.jpg);
+}
